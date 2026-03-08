@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hot Stone Kitchen</title>
+  <script>
+    // GitHub Pages: redirect to index.html so the SPA can load
+    sessionStorage.redirect = location.href;
+    location.replace(location.pathname.replace(/\/$/, '') + '/index.html');
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="index.html">Hot Stone Kitchen</a>...</p>
+</body>
+</html>
